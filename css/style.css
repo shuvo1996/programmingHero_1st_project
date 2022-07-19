@@ -104,15 +104,16 @@ a {
     border: 1px solid #f05a5a;
     border-radius: 5px;
     color: #f05a5a;
+    margin-top: -10px;
 }
 
-.ammount_part h2 {
-    font-family: 'Open Sans', sans-serif;
+#ammount .ammount_part input[type=text] {
+    border: none;
     font-weight: 400;
     font-size: 18px;
     color: #a39a9a;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    text-align: center;
+    background-color: white;
 }
 
 hr {
