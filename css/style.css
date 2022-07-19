@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* 1st part */
+#banner {
+    background-image: linear-gradient(to bottom, rgba(14, 3, 3, 0.8), rgba(243, 231, 231, 0.4)), url(../images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.banner_item {
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.banner_item h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: aliceblue;
+    text-align: center;
+    margin: 0 200px;
+
+}
+
+.banner_item p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    padding-top: 30px;
+    margin: 0 300px;
+}
+
+.banner_item a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #f05a5a;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+/* 2nd part */
+
+.ammount_part {
+    width: 1170;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ammount_part h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.ammount_part p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757070;
+    padding-top: 30px;
+    margin: 0 400px;
+}
+
+.ammount_part ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 70px 0;
+}
+
+.ammount_part ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #757070;
+    margin: 10px 30px;
+}
+
+.ammount_part .red_color {
+    padding: 20px 10px;
+    background-color: antiquewhite;
+    border: 1px solid #f05a5a;
+    border-radius: 5px;
+    color: #f05a5a;
+}
+
+.ammount_part h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #a39a9a;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+hr {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ammount_part a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #f05a5a;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* 3rd part */
+#plan {
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#plan h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#plan .single_para {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757070;
+    padding-top: 30px;
+    margin: 0 200px;
+}
+
+#plan p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757070;
+    padding-top: 30px;
+}
+
+.plan_part {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.plan_part .plan {
+    text-align: justify;
+    width: 33%;
+    margin-right: 30px;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.plan_part .one {
+    background-color: rgb(213, 255, 251);
+}
+
+.plan_part .two {
+    background-color: #f1e4e4;
+}
+
+.plan_part .three {
+    background-color: #ffebca;
+
+}
+
+#plan .plan_part .plan h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* 4th &5th part */
+#similar1_part {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.same_part {
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.same_part .text {
+    width: 500px;
+}
+
+.same_part .text1 {
+    margin-right: 100px;
+}
+
+.same_part .text2 {
+    margin-left: 100px;
+}
+
+.text h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.text .h1_1st {
+    margin-right: 120px;
+}
+
+.text .h1_2nd {
+    margin-right: 280px;
+}
+
+.text .p1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757070;
+    padding-top: 30px;
+}
+
+.text .p2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757070;
+    padding-top: 10px;
+}
+
+.text a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #f05a5a;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.same_part .pic {
+    width: 570px;
+}
+
+.pic img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* 6th part */
+#mail_section {
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mail_part {
+    margin: 100px 0;
+}
+
+.mail_part h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.mail_part p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757070;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: 0 228px;
+}
+
+.mail_part .mail {
+    width: 500px;
+    height: 92px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background-color: #FFF4D6;
+}
+
+input[type=button] {
+    background-color: #f05a5a;
+    border: none;
+    border-radius: 2px;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-left: -4px;
+}
+
+input[type=text] {
+    background-color: #d6d4d4;
+    color: #3b3a3a;
+    border: none;
+    padding: 10px 30px;
+    text-align: left;
+}
+
+/* 7th part */
+#footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+    text-align: center;
+}
+
+.last_part {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.last_part h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #f05a5a;
+}
+
+.last_part h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #a5a1a1;
+    padding-top: 10px;
+}
